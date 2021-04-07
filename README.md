@@ -15,3 +15,5 @@ Before you run it, do these 2 commands:
 Then run disconnall away and have fun with the results.
 
 in windows? idfk, the program does support windows but i have no idea how to use aircrack-ng in windows so good luck
+
+after airodump-ng has collected enough data that you are pleased with, just press `ctrl + c` to go on to the next step and start disconnecting!
