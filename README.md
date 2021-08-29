@@ -4,10 +4,10 @@ Do you ever just want to cause chaos with everyone around you? Do you hate every
 # installation
 Get aircrack-ng, compile this program and you're done. 
 How you get aircrack-ng you ask? I only tried this in a debian based distro (ubuntu, i know, i know), so I just did a simple `sudo apt-get install aircrack-ng`. 
-Windows? There are precompiled binaries that you can use, but I have no idea how to! 
+Windows? There are precompiled binaries that you can use, but I have no idea how to use them! 
 
 # usage
-in linux: `sudo ./disconnall {write file} {wifi adapter} [rounds] [deauth packets]` (braces {} are required, brackets [] are not).
+in linux: `sudo ./disconnall {write file} {wifi adapter} [rounds] [deauth packets]` (braces {} are required parameters, brackets [] are not).
 You can find your wifi adapter with `iwconfig` or `ifconfig`.
 Before you run it, do these 2 commands: 
 `sudo iwconfig {wifi adapter} mode monitor` (make sure your wifi is off before) and 
